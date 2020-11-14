@@ -51,17 +51,22 @@ https://www.hex-rays.com/products/ida/support/download_freeware/IDA - supports s
 https://gchq.github.io/CyberChef/ - live web based decrytion for testing once key, data, data length and input format is entered.
 https://www.hopperapp.com/ - 
 https://docs.pwntools.com/en/stable/about.html - for python crypto decryption testing once data pulled out of disassem
+                                               - pwn. pwnlib, Toolbox optimized for CTFs
+
 
 Ghidra
 run to get to entry point
 G to go to addr
 function graph and function call graph
+apply patches to input file. eg, if changing a jz to jnz
 
 Hopper
 open binary > procs > main
 Alt + Enter to decomp
 G to go to addr
 
+IDA 
+space bar - Toggle between the text and graph views
 
 
 CrackMes
