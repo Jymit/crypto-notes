@@ -4,23 +4,15 @@
 
 
 
-
-
-
-
-
-
-
-
 Reverse Engineering Crypto
 
 
 
 
 
-
-
 XOR
+
+
 
 
 
@@ -46,12 +38,16 @@ S box init of 255 array. while loop. mod key length so as to not go past 255.
 
 
 Tools
+
 https://ghidra-sre.org/releaseNotes_9.2.html - inc decompiler
 https://www.hex-rays.com/products/ida/support/download_freeware/IDA - supports some architectures that Ghidra doesn't, and vice versa. IDA has a debugger whereas Ghidra does not.
 https://gchq.github.io/CyberChef/ - live web based decrytion for testing once key, data, data length and input format is entered.
 https://www.hopperapp.com/ - 
 https://docs.pwntools.com/en/stable/about.html - for python crypto decryption testing once data pulled out of disassem
                                                - pwn. pwnlib, Toolbox optimized for CTFs
+                                               
+
+
 
 
 Ghidra
@@ -61,13 +57,24 @@ function graph and function call graph
 apply patches to input file. eg, if changing a jz to jnz
 D for dissassemble
 
+
+
+
+
 Hopper
 open binary > procs > main
 Alt + Enter to decomp
 G to go to addr
 
+
+
+
+
 IDA 
 space bar - Toggle between the text and graph views
+
+
+
 
 
 CrackMes
