@@ -59,6 +59,7 @@ run to get to entry point
 G to go to addr
 function graph and function call graph
 apply patches to input file. eg, if changing a jz to jnz
+D for dissassemble
 
 Hopper
 open binary > procs > main
