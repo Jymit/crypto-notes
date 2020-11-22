@@ -70,3 +70,9 @@ space bar - Toggle between the text and graph views
 
 
 CrackMes
+
+cbm-hackers's easy_reverse
+
+001011d3 onwards. decomile windows in Ghidra. See ln 10: if (sVar1 == 10) { \n if (arg[1][4] == "@"{ \n puts("Nice Job!!");
+
+ergo 1234@67890
