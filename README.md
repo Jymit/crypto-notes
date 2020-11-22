@@ -7,10 +7,12 @@
 ## Reverse Engineering Crypto
 
 ### XOR
-- 0 0 is 0
-- 0 1 is 1
-- 1 0 is 1
-- 1 1 is 0
+```
+0 0 is 0
+0 1 is 1
+1 0 is 1
+1 1 is 0
+```
 - 0 false
 - 1 true
 
