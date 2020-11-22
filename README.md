@@ -4,19 +4,11 @@
 
 
 
-Reverse Engineering Crypto
+## Reverse Engineering Crypto
 
+### XOR
 
-
-
-
-XOR
-
-
-
-
-
-RC4 Crypto
+## RC4 Crypto
 https://en.wikipedia.org/wiki/RC4
 Key-scheduling algorithm (KSA)
 ```
@@ -37,7 +29,7 @@ S box init of 255 array. while loop. mod key length so as to not go past 255.
 
 
 
-Tools
+## Tools
 
 https://ghidra-sre.org/releaseNotes_9.2.html - inc decompiler
 https://www.hex-rays.com/products/ida/support/download_freeware/IDA - supports some architectures that Ghidra doesn't, and vice versa. IDA has a debugger whereas Ghidra does not.
@@ -50,7 +42,7 @@ https://docs.pwntools.com/en/stable/about.html - for python crypto decryption te
 
 
 
-Ghidra
+## Ghidra
 run to get to entry point
 G to go to addr
 function graph and function call graph
@@ -61,7 +53,7 @@ D for dissassemble
 
 
 
-Hopper
+## Hopper
 open binary > procs > main
 Alt + Enter to decomp
 G to go to addr
@@ -70,14 +62,14 @@ G to go to addr
 
 
 
-IDA 
+## IDA 
 space bar - Toggle between the text and graph views
 
 
 
 
 
-CrackMes
+## CrackMes
 
 cbm-hackers's easy_reverse
 
