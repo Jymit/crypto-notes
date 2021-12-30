@@ -1,8 +1,4 @@
-# getschwifty
-
-
-
-
+# get schwifty w/ crypto
 
 ## Reverse Engineering Crypto
 
